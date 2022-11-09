@@ -1,0 +1,23 @@
+
+
+{
+    "name": "@emesome/marketplace",
+    "version": "0.1.0",
+    "description": "Emesome Marketplace client",
+    "repository": "https://github.com/Jarvis-Nu/emesome.git",
+    "author": "Tony Stark",
+    "license": "MIT",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "packages/ui"
+        ],
+        "nohoist": [
+            "flowbite",
+            "flowbite-react"
+        ]
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+  }
